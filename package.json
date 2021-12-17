@@ -26,7 +26,7 @@
     "extends": "react-app"
   },
   "dependencies": {
-    "@ant-design/icons": "^4.0.6",
+    "@ant-design/icons": "^4.7.0",
     "antd": "^4.1.4",
     "gg-editor": "^2.0.3",
     "html-to-image": "^0.1.1",
