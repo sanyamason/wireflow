@@ -8,7 +8,9 @@
     "e2e": "cd e2e && jest",
     "eject": "react-scripts eject",
     "start": "react-scripts start",
-    "test": "react-scripts test --watchAll=false"
+    "test": "react-scripts test --watchAll=false",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "browserslist": {
     "production": [
@@ -27,13 +29,14 @@
   },
   "dependencies": {
     "@ant-design/icons": "^4.0.6",
-    "antd": "^4.1.4",
-    "gg-editor": "^2.0.3",
+    "antd": "^4.17.0",
+    "gg-editor": "^3.0.0",
     "html-to-image": "^0.1.1",
     "react": "^16.13.1",
     "react-colorful": "^4.0.4",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "5.0.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.9.0",
@@ -44,5 +47,6 @@
     "@types/puppeteer": "^3.0.0",
     "jest-puppeteer": "^4.4.0",
     "puppeteer": "^5.0.0"
-  }
+  },
+  "snyk": true
 }
