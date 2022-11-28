@@ -33,7 +33,7 @@
     "react": "^16.13.1",
     "react-colorful": "^4.0.4",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "5.0.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.9.0",
